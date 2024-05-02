@@ -1,0 +1,13 @@
+Dockerfile 
+
+from nginx:alpine
+COPY index.html /usr/share/nginx/html
+EXPOSE 80
+
+ ////comments to run
+
+docker built -t sample
+
+Dock build -t sample
+docker run -p 8080:90 sample
+dockdf 
